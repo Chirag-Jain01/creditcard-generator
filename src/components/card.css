@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    width: 20%;
+    height: 100vh;
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);  
+}
+.frontCardDetails{
+    color: white;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    margin: 100px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #d4418e;
+    background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+}
+.cardNumber{
+    position: absolute;
+    margin: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 0.5em;
+}
+.cardName{
+    position: absolute;
+    margin: 20px;
+    bottom: -10px;
+}
+.cardExpirtion{
+    position: absolute;
+    margin: 20px;
+    bottom: -10px;
+    right: 30px;
+}
+.circle{
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+    border-radius: 100%;
+    color: white;
+}
+.circle1{
+    height: 20px;
+    margin: 10px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.topCircle{
+    display: flex;
+    align-items: center;
+}
+.backCardDetails{
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    margin: 200px;
+    border-radius: 20px;
+    bottom: -100px;
+    border: 1px solid #000;
+background-color: gainsboro;
+}
+.blackBlock{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+}
+.secondBlock{
+    width: 50%;
+    height: 30px;
+    margin:30px auto 50px auto;
+    background-color: darkgray;
+}
+.cvvDesign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}

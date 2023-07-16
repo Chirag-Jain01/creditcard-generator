@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+
+button{
+    margin-top: 20px;
+    width:320px;
+    padding: 10px;
+    background-color: rgb(76, 3, 76);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input{
+    border-radius: 10px;
+}
+form {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+  }
+  input{
+    width:300px;
+    padding: 10px;
+  }
+
+  h5{color: red;}
